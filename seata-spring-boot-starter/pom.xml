@@ -47,8 +47,18 @@
         <!--seata-->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>seata-all</artifactId>
+            <artifactId>seata-core</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>seata-spring</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- only for event bus -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
         </dependency>
         <!--spring-->
         <dependency>
